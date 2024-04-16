@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="580.9999999999999" scrolly="327.5" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="690.216552734375" scrolly="-1870.936088392972" scale="0.5893159556867837">
+  <tab name="main" type="MainTab" active="true" scrollx="690.216552734375" scrolly="-1735.943846920917" scale="0.5893159556867837">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="e8{7`@ft{`+Jp)mv`dh~" type="">dictred</variable>
       <variable id="OBQcW[6s!?-P?x/kawzN" type="">dictyellow</variable>
@@ -1493,6 +1493,15 @@
         </block>
       </next>
     </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="vH~C{7#%9tj)I7ii0$df" x="-870" y="3290">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="aH|Yg7ZDFLgmupKTSv.X">
+          <field name="TEXT">button1</field>
+        </shadow>
+      </value>
+    </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="-+4VX^H4W1wHfd|*J!Y=" x="-910" y="3430">
       <field name="ELEMENT">button</field>
       <field name="MODE">TO</field>
@@ -1747,14 +1756,116 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="vH~C{7#%9tj)I7ii0$df" x="-910" y="3870">
-      <field name="EVENT">click</field>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="w-Qah}DOv,p*ZFVHj9K*" x="-930" y="3790">
+      <field name="ELEMENT">input</field>
+      <field name="MODE">TO</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
-        <shadow type="text" id="aH|Yg7ZDFLgmupKTSv.X">
-          <field name="TEXT">button1</field>
+        <shadow type="text" id="SxjHyTpXfJuG^UdFuwbV">
+          <field name="TEXT">button3</field>
         </shadow>
       </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="4dM[@Ojc|I1XK;%JlU/e">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemStyle" id="##`DYY|h!a;.CU3gR]qy">
+          <field name="PROPERTY">position</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="sFMf#[n*p{i[gKbxw,/%">
+              <field name="TEXT">absolute</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="Mw2N;iFBE;Sc}c!=Yea~">
+              <field name="TEXT">button3</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="!_`?/l5[)cX{1/4Ct?$V">
+              <field name="PROPERTY">bottom</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="KY|_)6~[x4LxYgo+5lCP">
+                  <field name="TEXT">150px</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="A=bd%X{;ywegY2txFI`g">
+                  <field name="TEXT">button3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="/`AC06[(l(1xPf*eNb1h">
+                  <field name="PROPERTY">right</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="|X_zC79-S]tnL4DvKeWS">
+                      <field name="TEXT">0%</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="f84F~y4|9$^0fT~.6/0a">
+                      <field name="TEXT">button1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="k]R24+hikMXccJh*#8A8">
+                      <field name="PROPERTY">backgroundColor</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="2LR^}jqXv1^:w9ZkQJkP">
+                          <field name="TEXT">white</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="K[oY3:WDRqp4ft}|k;Cw">
+                          <field name="TEXT">button3</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id="BikjSkk5SbPX}H2j5@B(">
+                          <field name="PROPERTY">height</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <block type="text" id="*SW?q;8fBbnB(n^:+fQg">
+                              <field name="TEXT">30px</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="6HVy[~k3{~z#94l.yD[#">
+                              <field name="TEXT">button3</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="setHTMLElemStyle" id="~$bx8f[e}9Up[nToUIlY">
+                              <field name="PROPERTY">width</field>
+                              <field name="PARENT">FALSE</field>
+                              <value name="VALUE">
+                                <block type="text" id="|9o+4x+w5q2MT]MTp+kc">
+                                  <field name="TEXT">100px</field>
+                                </block>
+                              </value>
+                              <value name="ID">
+                                <shadow type="text" id="tI{hLZUgww.R|M9Nrwu|">
+                                  <field name="TEXT">button3</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
     </block>
   </tab>
   <editorsettings viewport-x="846.5999999999999" viewport-y="20" viewport-w="678" viewport-h="416.5" viewport-hidden="false" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>

@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="580.9999999999999" scrolly="327.5" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="690.216552734375" scrolly="-1870.936088392972" scale="0.5893159556867837">
+  <tab name="main" type="MainTab" active="true" scrollx="690.216552734375" scrolly="-1735.943846920917" scale="0.5893159556867837">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="e8{7`@ft{`+Jp)mv`dh~" type="">dictred</variable>
       <variable id="OBQcW[6s!?-P?x/kawzN" type="">dictyellow</variable>
@@ -1493,6 +1493,94 @@
         </block>
       </next>
     </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="3[CMX`l:Sz[7T$3vq`CM" x="-90" y="3210">
+      <field name="ELEMENT">input</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="bU4AlWwx*zK$!Ge^*]SH">
+          <field name="TEXT">button2</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="KlheXGLNx_8w}W%jIA]`">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemStyle" id="G{g1fv~V~MZrk,n{h|S)">
+          <field name="PROPERTY">position</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="+OIXUw;{l0gE[DoWJ`_z">
+              <field name="TEXT">static</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="qDuGlRg.=*lSY=0f3z+4">
+              <field name="TEXT">button2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="mq#T8e#O3R]!}KzHu.lv">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="]IS6HD7y+:,m2QU[m4zF">
+                  <field name="TEXT">white</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="=X_3r:menKJDSZS;W6lo">
+                  <field name="TEXT">button2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id=":,ha*M7G@b:z5CPY|l,L">
+                  <field name="PROPERTY">height</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="J-jQ4tIRS2[w@Y1:ou8K">
+                      <field name="TEXT">30px</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="GP}f[~Nw^5+h9Rl|.x|`">
+                      <field name="TEXT">button2</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="MOZ.nyBvoZxm46Fxs:,F">
+                      <field name="PROPERTY">width</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="8|Lg?On~#/3Xv.U(34PL">
+                          <field name="TEXT">60px</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="~|Y7Q{ab$}B$5GtS6;n#">
+                          <field name="TEXT">button2</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="vH~C{7#%9tj)I7ii0$df" x="-870" y="3290">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="aH|Yg7ZDFLgmupKTSv.X">
+          <field name="TEXT">button1</field>
+        </shadow>
+      </value>
+    </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="-+4VX^H4W1wHfd|*J!Y=" x="-910" y="3430">
       <field name="ELEMENT">button</field>
       <field name="MODE">TO</field>
@@ -1747,15 +1835,6 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="vH~C{7#%9tj)I7ii0$df" x="-910" y="3870">
-      <field name="EVENT">click</field>
-      <field name="PARENT">FALSE</field>
-      <value name="ID">
-        <shadow type="text" id="aH|Yg7ZDFLgmupKTSv.X">
-          <field name="TEXT">button1</field>
-        </shadow>
-      </value>
-    </block>
   </tab>
-  <editorsettings viewport-x="846.5999999999999" viewport-y="20" viewport-w="678" viewport-h="416.5" viewport-hidden="false" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="846.5999999999999" viewport-y="20" viewport-w="678" viewport-h="416.5" viewport-hidden="true" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>
 </xml>
