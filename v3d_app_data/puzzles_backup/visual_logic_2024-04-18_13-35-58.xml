@@ -1,14 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="578.9999999999998" scrolly="327.5" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="774.1434936523438" scrolly="-3148.521290145342" scale="0.860866250335829">
+  <tab name="init" type="InitTab" active="false" scrollx="580.9999999999999" scrolly="327.5" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="665.7117309570314" scrolly="-1333.4816913933869" scale="0.5803086432682898">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id=",meiTk@eK{|IzjeNN1_y" type="">clonedred</variable>
       <variable id="DuC[l|awN)n`Q56`WVuu" type="">clonedyellow</variable>
       <variable id="gqhp1mXo0Vlm2ERuJL-u" type="">clonedblue</variable>
       <variable id="*8C,I!^R@V*E6pyk{;e`" type="">clonedviolet</variable>
-      <variable id="K$/Mjp:e_I-UA.R*NBAB" type="">objlist</variable>
-      <variable id="#Ti3@uZ}FyY6C|AQjlzN" type="">poslist</variable>
-      <variable id="z8rj6nvy+p/:Ay`4y71F" type="">i</variable>
     </variables>
     <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="xDy:3l,gfDwISN2qA$$d" x="-870" y="-690">
       <value name="VALUE">
@@ -1126,7 +1123,7 @@
       <field name="PARENT">FALSE</field>
       <value name="ID">
         <shadow type="text" id="XDS~-|6{*R.*5v_QR*+l">
-          <field name="TEXT">save</field>
+          <field name="TEXT">button1</field>
         </shadow>
       </value>
       <value name="TARGET_ID">
@@ -1145,7 +1142,7 @@
           </value>
           <value name="ID">
             <shadow type="text" id="UFxw(IV=WKY0ChsQ2Ml9">
-              <field name="TEXT">save</field>
+              <field name="TEXT">button1</field>
             </shadow>
           </value>
           <next>
@@ -1159,7 +1156,7 @@
               </value>
               <value name="ID">
                 <shadow type="text" id="^Cv*hO]Z_2b;Ox{F3%%R">
-                  <field name="TEXT">save</field>
+                  <field name="TEXT">button1</field>
                 </shadow>
               </value>
               <next>
@@ -1168,12 +1165,12 @@
                   <field name="PARENT">FALSE</field>
                   <value name="VALUE">
                     <block type="text" id="S[FvSJ^]7u]]R{tkiF0m">
-                      <field name="TEXT">7%</field>
+                      <field name="TEXT">10%</field>
                     </block>
                   </value>
                   <value name="ID">
                     <shadow type="text" id="XgBT()A}jIpc{_X@qPHN">
-                      <field name="TEXT">save</field>
+                      <field name="TEXT">button1</field>
                     </shadow>
                   </value>
                   <next>
@@ -1187,7 +1184,7 @@
                       </value>
                       <value name="ID">
                         <shadow type="text" id="cV(T`@7wjv)Gp2x0lJGH">
-                          <field name="TEXT">save</field>
+                          <field name="TEXT">button1</field>
                         </shadow>
                       </value>
                       <next>
@@ -1201,7 +1198,7 @@
                           </value>
                           <value name="ID">
                             <shadow type="text" id="-98Hn{jmb)v?5whTI8.b">
-                              <field name="TEXT">save</field>
+                              <field name="TEXT">button1</field>
                             </shadow>
                           </value>
                           <next>
@@ -1215,7 +1212,7 @@
                               </value>
                               <value name="ID">
                                 <shadow type="text" id="K8:iDsXqJRY/@K|0nO!d">
-                                  <field name="TEXT">save</field>
+                                  <field name="TEXT">button1</field>
                                 </shadow>
                               </value>
                               <next>
@@ -1229,7 +1226,7 @@
                                   </value>
                                   <value name="ID">
                                     <shadow type="text" id="`HMJA]$dNio6{0_^-#Im">
-                                      <field name="TEXT">save</field>
+                                      <field name="TEXT">button1</field>
                                     </shadow>
                                   </value>
                                 </block>
@@ -1253,7 +1250,7 @@
       <field name="PARENT">FALSE</field>
       <value name="ID">
         <shadow type="text" id="vH([{=ua;(yNC)!2G3)Y">
-          <field name="TEXT">load</field>
+          <field name="TEXT">button2</field>
         </shadow>
       </value>
       <value name="TARGET_ID">
@@ -1272,7 +1269,7 @@
           </value>
           <value name="ID">
             <shadow type="text" id="):_%@IJ--CQw?um/hq*+">
-              <field name="TEXT">load</field>
+              <field name="TEXT">button2</field>
             </shadow>
           </value>
           <next>
@@ -1286,7 +1283,7 @@
               </value>
               <value name="ID">
                 <shadow type="text" id="~NyX(CcF*sKlgL$1Ukw=">
-                  <field name="TEXT">load</field>
+                  <field name="TEXT">button2</field>
                 </shadow>
               </value>
               <next>
@@ -1295,12 +1292,12 @@
                   <field name="PARENT">FALSE</field>
                   <value name="VALUE">
                     <block type="text" id="T;=8Ep^,*kc4p~]D2YF_">
-                      <field name="TEXT">2%</field>
+                      <field name="TEXT">3%</field>
                     </block>
                   </value>
                   <value name="ID">
                     <shadow type="text" id="jFDLn-ap3q(m`2eyShwB">
-                      <field name="TEXT">load</field>
+                      <field name="TEXT">button2</field>
                     </shadow>
                   </value>
                   <next>
@@ -1314,7 +1311,7 @@
                       </value>
                       <value name="ID">
                         <shadow type="text" id="Le2)V1[aeuJNZeF1^3RV">
-                          <field name="TEXT">load</field>
+                          <field name="TEXT">button2</field>
                         </shadow>
                       </value>
                       <next>
@@ -1328,7 +1325,7 @@
                           </value>
                           <value name="ID">
                             <shadow type="text" id="eO/^|1)kmkV^9.;zZ_r_">
-                              <field name="TEXT">load</field>
+                              <field name="TEXT">button2</field>
                             </shadow>
                           </value>
                           <next>
@@ -1342,7 +1339,7 @@
                               </value>
                               <value name="ID">
                                 <shadow type="text" id=",,T!.VamIw2~xk)6T}UK">
-                                  <field name="TEXT">load</field>
+                                  <field name="TEXT">button2</field>
                                 </shadow>
                               </value>
                               <next>
@@ -1356,7 +1353,7 @@
                                   </value>
                                   <value name="ID">
                                     <shadow type="text" id="=AJ;d]]k6F`y9Y}o.O[n">
-                                      <field name="TEXT">load</field>
+                                      <field name="TEXT">button2</field>
                                     </shadow>
                                   </value>
                                 </block>
@@ -1374,7 +1371,7 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="b26M0`L[r#gzLP/=qb.h" x="-762" y="3278">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="b26M0`L[r#gzLP/=qb.h" x="-790" y="3210">
       <field name="ELEMENT">input</field>
       <field name="MODE">TO</field>
       <field name="PARENT">FALSE</field>
@@ -1422,7 +1419,7 @@
                   <field name="PARENT">FALSE</field>
                   <value name="VALUE">
                     <block type="text" id="BBYF0n7=vOKzR85`(OYF">
-                      <field name="TEXT">1%</field>
+                      <field name="TEXT">0%</field>
                     </block>
                   </value>
                   <value name="ID">
@@ -1450,7 +1447,7 @@
                           <field name="PARENT">FALSE</field>
                           <value name="VALUE">
                             <block type="text" id="Cz1KN!X6Hq6rEm%k|WcJ">
-                              <field name="TEXT">25px</field>
+                              <field name="TEXT">30px</field>
                             </block>
                           </value>
                           <value name="ID">
@@ -1464,7 +1461,7 @@
                               <field name="PARENT">FALSE</field>
                               <value name="VALUE">
                                 <block type="text" id="{tQss-#m}#SD`aE?_p,?">
-                                  <field name="TEXT">152px</field>
+                                  <field name="TEXT">160px</field>
                                 </block>
                               </value>
                               <value name="ID">
@@ -1472,70 +1469,6 @@
                                   <field name="TEXT">input</field>
                                 </shadow>
                               </value>
-                              <next>
-                                <block type="setHTMLElemStyle" id="%vYRtNAUXH]rQi(Q-!*d">
-                                  <field name="PROPERTY">border</field>
-                                  <field name="PARENT">FALSE</field>
-                                  <value name="VALUE">
-                                    <block type="text" id="Pu$jXud-~Vd-E2(vr~0+">
-                                      <field name="TEXT">solid 1px black</field>
-                                    </block>
-                                  </value>
-                                  <value name="ID">
-                                    <shadow type="text" id="M$Jfp={zqJ#G0SGC39];">
-                                      <field name="TEXT">input</field>
-                                    </shadow>
-                                  </value>
-                                  <next>
-                                    <block type="setHTMLElemStyle" id="^C$)p0Aq1f~igI3jO6R$">
-                                      <field name="PROPERTY">borderRadius</field>
-                                      <field name="PARENT">FALSE</field>
-                                      <value name="VALUE">
-                                        <block type="text" id="EjUE:SRR8#oEurJ0la!Z">
-                                          <field name="TEXT">4px</field>
-                                        </block>
-                                      </value>
-                                      <value name="ID">
-                                        <shadow type="text" id="72!t!=}}SR4I)|I_bcW$">
-                                          <field name="TEXT">input</field>
-                                        </shadow>
-                                      </value>
-                                      <next>
-                                        <block type="setHTMLElemAttribute" id="x}KTFS(iocNJ52VTKbOf">
-                                          <field name="ATTRIBUTE">type</field>
-                                          <field name="PARENT">FALSE</field>
-                                          <value name="VALUE">
-                                            <block type="text" id="2)]#r*]y:kTxhwwkY2By">
-                                              <field name="TEXT">text</field>
-                                            </block>
-                                          </value>
-                                          <value name="ID">
-                                            <shadow type="text" id="$^crH]-tIYv7cLBlC/p5">
-                                              <field name="TEXT">input</field>
-                                            </shadow>
-                                          </value>
-                                          <next>
-                                            <block type="setHTMLElemAttribute" id="Uez.`%p0A,0:|N:eQZVZ">
-                                              <field name="ATTRIBUTE">value</field>
-                                              <field name="PARENT">FALSE</field>
-                                              <value name="VALUE">
-                                                <block type="text" id="KDE-j]%qpxU7752Sb;Y[">
-                                                  <field name="TEXT">lego_game1</field>
-                                                </block>
-                                              </value>
-                                              <value name="ID">
-                                                <shadow type="text" id=")vhe58Mvp#HrqP{(hsQ`">
-                                                  <field name="TEXT">input</field>
-                                                </shadow>
-                                              </value>
-                                            </block>
-                                          </next>
-                                        </block>
-                                      </next>
-                                    </block>
-                                  </next>
-                                </block>
-                              </next>
                             </block>
                           </next>
                         </block>
@@ -1548,175 +1481,6 @@
           </next>
         </block>
       </next>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="a02KNAqpy)p;E4k#F3eP" x="-730" y="3790">
-      <field name="EVENT">click</field>
-      <field name="PARENT">FALSE</field>
-      <value name="ID">
-        <shadow type="text" id="=M5wIP+45$8#:.IMH|u{">
-          <field name="TEXT">save</field>
-        </shadow>
-      </value>
-      <statement name="DO">
-        <block type="variables_set" id="Q[$X51noix^7q0XNr(ed">
-          <field name="VAR" id="K$/Mjp:e_I-UA.R*NBAB">objlist</field>
-          <value name="VALUE">
-            <block type="lists_create_empty" id="gK:=QyKla[:m8XnPTa7t"/>
-          </value>
-          <next>
-            <block type="variables_set" id="BA)tj,gW#y`2|JCj!%aR">
-              <field name="VAR" id="K$/Mjp:e_I-UA.R*NBAB">objlist</field>
-              <value name="VALUE">
-                <block type="getObjectsFrom" id="w6uyXyYV.MRCFP[sP.]I">
-                  <field name="TYPE">ALL</field>
-                  <value name="OBJ">
-                    <block type="text" id="#B{G#LB.nR#gVQw2_%la">
-                      <field name="TEXT">Scene</field>
-                    </block>
-                  </value>
-                </block>
-              </value>
-              <next>
-                <block type="variables_set" id="Oj1kGJ19DtLFr_@cv^kU">
-                  <field name="VAR" id="#Ti3@uZ}FyY6C|AQjlzN">poslist</field>
-                  <value name="VALUE">
-                    <block type="dictCreateEmpty" id="T*.B@?wZhrw%Hpbhd)WP"/>
-                  </value>
-                  <next>
-                    <block type="controls_forEach" id="iik7xzT!sl,2a^@RnYVd">
-                      <field name="VAR" id="z8rj6nvy+p/:Ay`4y71F">i</field>
-                      <value name="LIST">
-                        <block type="variables_get" id="77`GBv1R?+v?Eul(}3Go">
-                          <field name="VAR" id="K$/Mjp:e_I-UA.R*NBAB">objlist</field>
-                        </block>
-                      </value>
-                      <statement name="DO">
-                        <block type="controls_if" id="Q[JuAj`|rY~`4u`@[4Y8">
-                          <value name="IF0">
-                            <block type="isObjectVisible" id="6~c=tf@,|Hl^=nY]6J0-">
-                              <value name="VALUE">
-                                <shadow type="objectList" id="Rd(99{Hqua;RmV/*0[c!">
-                                  <field name="FIELDNAME">&lt;none&gt;</field>
-                                </shadow>
-                                <block type="variables_get" id="M2O@T57/).oo;6pDb,kI">
-                                  <field name="VAR" id="z8rj6nvy+p/:Ay`4y71F">i</field>
-                                </block>
-                              </value>
-                            </block>
-                          </value>
-                          <statement name="DO0">
-                            <block type="dictSet" id="SMm1RYa%rDei~p2^wk=x">
-                              <value name="DICT">
-                                <block type="variables_get" id="zr%cpn%q}iFQr*$_Gm]*">
-                                  <field name="VAR" id="#Ti3@uZ}FyY6C|AQjlzN">poslist</field>
-                                </block>
-                              </value>
-                              <value name="KEY">
-                                <shadow type="text" id="KUZ1?{_.Wy@eBy~/(]A/">
-                                  <field name="TEXT">someKey</field>
-                                </shadow>
-                                <block type="variables_get" id="txJ@SsL)i^amLqdjNEnz">
-                                  <field name="VAR" id="z8rj6nvy+p/:Ay`4y71F">i</field>
-                                </block>
-                              </value>
-                              <value name="VALUE">
-                                <block type="lists_create_with" id="|Ewr1.?]V^S$_Mjf9k^f">
-                                  <mutation items="3"/>
-                                  <value name="ADD0">
-                                    <block type="getObjTransform" id="YBcPQEFWq)^9^VEOw,|!">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
-                                      <field name="MODE">position</field>
-                                      <field name="COORD">x</field>
-                                      <value name="TARGETOBJ">
-                                        <shadow type="objectList" id="j8uVi{PRE(ajvX(%?F{c">
-                                          <field name="FIELDNAME">&lt;none&gt;</field>
-                                        </shadow>
-                                        <block type="variables_get" id="TC1.j?]D|pxk^1||FVLc">
-                                          <field name="VAR" id="z8rj6nvy+p/:Ay`4y71F">i</field>
-                                        </block>
-                                      </value>
-                                    </block>
-                                  </value>
-                                  <value name="ADD1">
-                                    <block type="getObjTransform" id="jstnp!#d#`_~4@}EE=T7">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
-                                      <field name="MODE">position</field>
-                                      <field name="COORD">y</field>
-                                      <value name="TARGETOBJ">
-                                        <shadow type="objectList">
-                                          <field name="FIELDNAME">&lt;none&gt;</field>
-                                        </shadow>
-                                        <block type="variables_get" id="3n(52|4mO5T@Tg*]j)Bf">
-                                          <field name="VAR" id="z8rj6nvy+p/:Ay`4y71F">i</field>
-                                        </block>
-                                      </value>
-                                    </block>
-                                  </value>
-                                  <value name="ADD2">
-                                    <block type="getObjTransform" id="2O@/km]}r,E~fL8*(=t/">
-                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
-                                      <field name="MODE">position</field>
-                                      <field name="COORD">z</field>
-                                      <value name="TARGETOBJ">
-                                        <shadow type="objectList">
-                                          <field name="FIELDNAME">&lt;none&gt;</field>
-                                        </shadow>
-                                        <block type="variables_get" id="xH_5v({JN;Y[G-B.rO:8">
-                                          <field name="VAR" id="z8rj6nvy+p/:Ay`4y71F">i</field>
-                                        </block>
-                                      </value>
-                                    </block>
-                                  </value>
-                                </block>
-                              </value>
-                            </block>
-                          </statement>
-                        </block>
-                      </statement>
-                      <next>
-                        <block type="downloadFile" id="kL:m}ryHGB!w?O/Tgr2E">
-                          <value name="CONTENTS">
-                            <shadow type="text" id="Ony${^IXz5)3=GBm~Gfi">
-                              <field name="TEXT">data:,</field>
-                            </shadow>
-                            <block type="variables_get" id="gC{~:FLg9na7XiDDPn*5">
-                              <field name="VAR" id="#Ti3@uZ}FyY6C|AQjlzN">poslist</field>
-                            </block>
-                          </value>
-                          <value name="FILENAME">
-                            <shadow type="text" id="G*b0|k/h4Gfy593Ygo2b">
-                              <field name="TEXT">screenshot.png</field>
-                            </shadow>
-                            <block type="text_join" id="OCSKl/IQ~nwjuZ{xSlZX">
-                              <mutation items="2"/>
-                              <value name="ADD0">
-                                <block type="getHTMLElemAttribute" id="@H#X,qQR2OCs/z|q,%o]">
-                                  <field name="ATTRIBUTE">value</field>
-                                  <field name="PARENT">FALSE</field>
-                                  <value name="ID">
-                                    <shadow type="text" id="%*.T,80t!*kX^elD%ggZ">
-                                      <field name="TEXT">input</field>
-                                    </shadow>
-                                  </value>
-                                </block>
-                              </value>
-                              <value name="ADD1">
-                                <block type="text" id="A3?/(TKP,S6]Gx=o_Dd*">
-                                  <field name="TEXT">.json</field>
-                                </block>
-                              </value>
-                            </block>
-                          </value>
-                        </block>
-                      </next>
-                    </block>
-                  </next>
-                </block>
-              </next>
-            </block>
-          </next>
-        </block>
-      </statement>
     </block>
   </tab>
   <editorsettings viewport-x="840.5999999999999" viewport-y="13" viewport-w="678" viewport-h="416.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>

@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="578.9999999999998" scrolly="327.5" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="774.1434936523438" scrolly="-3148.521290145342" scale="0.860866250335829">
+  <tab name="main" type="MainTab" active="true" scrollx="774.1434936523438" scrolly="-3148.5212901453415" scale="0.860866250335829">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id=",meiTk@eK{|IzjeNN1_y" type="">clonedred</variable>
       <variable id="DuC[l|awN)n`Q56`WVuu" type="">clonedyellow</variable>
@@ -1674,37 +1674,13 @@
                         </block>
                       </statement>
                       <next>
-                        <block type="downloadFile" id="kL:m}ryHGB!w?O/Tgr2E">
-                          <value name="CONTENTS">
-                            <shadow type="text" id="Ony${^IXz5)3=GBm~Gfi">
-                              <field name="TEXT">data:,</field>
+                        <block type="console.log" id="?ySli[?uCQNW_g%/LF7i">
+                          <value name="VALUE">
+                            <shadow type="text" id="{I{s`Ks,t(v2^7!j`0R^">
+                              <field name="TEXT">Hello, Verge!</field>
                             </shadow>
-                            <block type="variables_get" id="gC{~:FLg9na7XiDDPn*5">
+                            <block type="variables_get" id="d~[bKflei[ztcOiSwE}b">
                               <field name="VAR" id="#Ti3@uZ}FyY6C|AQjlzN">poslist</field>
-                            </block>
-                          </value>
-                          <value name="FILENAME">
-                            <shadow type="text" id="G*b0|k/h4Gfy593Ygo2b">
-                              <field name="TEXT">screenshot.png</field>
-                            </shadow>
-                            <block type="text_join" id="OCSKl/IQ~nwjuZ{xSlZX">
-                              <mutation items="2"/>
-                              <value name="ADD0">
-                                <block type="getHTMLElemAttribute" id="@H#X,qQR2OCs/z|q,%o]">
-                                  <field name="ATTRIBUTE">value</field>
-                                  <field name="PARENT">FALSE</field>
-                                  <value name="ID">
-                                    <shadow type="text" id="%*.T,80t!*kX^elD%ggZ">
-                                      <field name="TEXT">input</field>
-                                    </shadow>
-                                  </value>
-                                </block>
-                              </value>
-                              <value name="ADD1">
-                                <block type="text" id="A3?/(TKP,S6]Gx=o_Dd*">
-                                  <field name="TEXT">.json</field>
-                                </block>
-                              </value>
                             </block>
                           </value>
                         </block>
@@ -1719,5 +1695,5 @@
       </statement>
     </block>
   </tab>
-  <editorsettings viewport-x="840.5999999999999" viewport-y="13" viewport-w="678" viewport-h="416.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="840.5999999999999" viewport-y="13" viewport-w="678" viewport-h="416.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
